@@ -30,4 +30,4 @@ COPY --from=build \
   /app/target/release/microbin \
   /usr/bin/microbin
 
-ENTRYPOINT ["microbin"]
+ENTRYPOINT ["microbin", "--highlightsyntax", "--private", "--editable"]

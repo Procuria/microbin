@@ -30,4 +30,4 @@ COPY --from=build \
   /app/target/release/microbin \
   /usr/bin/microbin
 
-ENTRYPOINT ["microbin", "--highlightsyntax", "--private", "--editable"]
+ENTRYPOINT ["microbin", "--highlightsyntax", "--private", "--editable", "--auth-username peter", "--auth-password Buccaneer_Wincing_Wiry_Distort_Overhang_Evergreen_Unlimited_Rover6_Parole"]
